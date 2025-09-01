@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  /* Fonts */
+  --fraunces: "Fraunces", serif;
+  --montserrat: "Montserrat", sans-serif;
+  /* Font sizes */
+  --h1: 2rem;
+  --h2: 1.75rem;
+  --h3: 1.5rem;
+  --h4: 1.25rem;
+  --h5: 1.125rem;
+  --h6: 1rem;
+  /* Colors */
+  --black-true: #0a0a0a;
+  --black-muted: rgba(18, 18, 18, 0.8);
+  --charcoal: #1c1c1c;
+  --slate: #3a3a3a;
+  --cloud: #b0b0b0;
+  --rice: #e0e0e0;
+  --highlight: #d4af37;
+  /* Miscs */
+}
+
+body {
+  background-image: url("./bg.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: var(--rice);
+  font-family: var(--montserrat);
+  font-weight: normal;
+}
+
+.container {
+  background-color: var(--black-muted);
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+  width: 45vw;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fraunces);
+  font-weight: 900;
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+h5 {
+  font-size: var(--h5);
+}
+
+h6 {
+  font-size: var(--h6);
+}
+
+.date {
+  text-align: right;
+  color: var(--cloud);
+}
+
+.writer {
+  text-align: left;
+  color: var(--cloud);
+}
+
+hr {
+  border: none;
+  border-top: 2px solid var(--slate);
+  margin: 2rem 0;
+}
+
+.navbar {
+  background-color: var(--charcoal);
+  margin: -2rem -2rem 2rem -2rem;
+}
+
+.navbar ul,
+.navbar h2 {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.navbar a {
+  color: var(--rice);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: var(--cloud);
+  font-size: 1.05rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: var(--cloud);
+}
+
+a {
+  color: var(--highlight);
+  text-decoration: none;
+}
