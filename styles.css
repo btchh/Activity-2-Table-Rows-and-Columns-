@@ -20,11 +20,12 @@
   --cloud: #b0b0b0;
   --rice: #e0e0e0;
   --highlight: #d4af37;
+  --highlight-var: #c58f1b;
   /* Miscs */
 }
 
 body {
-  background-image: url("./bg.gif");
+  background-image: url("./Assets/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -118,6 +119,11 @@ hr {
   font-size: 1.05rem;
 }
 
+.navbar h2 a:hover {
+  font-size: var(--h2);
+  color: var(--highlight-var);
+}
+
 footer {
   text-align: center;
   margin-top: 2rem;
@@ -127,4 +133,41 @@ footer {
 a {
   color: var(--highlight);
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--highlight-var);
+  font-size: 1.05rem;
+}
+
+/* Table stuffs */
+
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px solid var(--cloud);
+}
+
+.icon {
+  width: auto;
+  height: 4rem;
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+.icon-header {
+  width: auto;
+  height: 5rem;
+}
+
+.content {
+  width: auto;
+  height: auto;
 }
