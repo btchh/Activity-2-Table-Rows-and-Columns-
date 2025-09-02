@@ -192,3 +192,8 @@ td {
   width: auto;
   height: auto;
 }
+
+.bb-head {
+  white-space: nowrap;
+  padding: 1rem;
+}
