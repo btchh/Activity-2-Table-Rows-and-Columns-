@@ -144,6 +144,11 @@ a:hover {
   font-size: 1.05rem;
 }
 
+.fc-text {
+  text-align: center;
+  color: var(--cloud);
+}
+
 /* Table stuffs */
 
 table {
