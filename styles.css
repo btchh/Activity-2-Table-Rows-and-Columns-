@@ -187,13 +187,19 @@ td {
     max-height: 3rem;
   }
 }
-
-.content {
-  width: auto;
-  height: auto;
-}
-
 .bb-head {
   white-space: nowrap;
   padding: 1rem;
+  width: 50%;
+}
+
+.ii-vid-size {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-cover {
+  width: 100%;
+  height: auto;
 }
